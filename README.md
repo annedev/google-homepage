@@ -1,0 +1,1 @@
+The purpose of this project is to learn how to deconstruct the Google homepage and rebuild it.
