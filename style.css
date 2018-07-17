@@ -1,10 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background: white;
+    height: 100%;
+    width: 100%;
+}
+
 nav {
     text-align: right;
 }
 
 ul {
     list-style-type: none;
-    
 }
 
 li.navlinks {
@@ -96,12 +103,11 @@ li {
     display: inline-block;
 }
 
-.footernavleft a,
-.footernavright a {
+.footer a {
     color: rgb(107, 112, 107);
 }
 
-.footernavleft {
+.navleft {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -110,7 +116,7 @@ li {
     font-size: 13px;
 }
 
-.footernavright {
+.navright {
     text-align: right;
     margin-right: 10px;
     position: fixed;
