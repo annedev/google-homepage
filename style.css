@@ -85,7 +85,7 @@ p {
     color: grey;
 }
 
-#footernavleft {
+.footernavleft {
     position: fixed;
     margin-bottom: 20px;
     bottom: 0;
