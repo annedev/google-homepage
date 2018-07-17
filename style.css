@@ -2,11 +2,24 @@ nav {
     text-align: right;
 }
 
-li {
+ul {
+    list-style-type: none;
+    
+}
+
+li.navlinks {
     display: inline;
     padding: 10px;
     font-family: sans-serif;
     font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 li input {
@@ -18,19 +31,10 @@ li input {
     background-color: #4285f4;
     border: 1px solid #f2f2f2;
     border-radius: 3px;
-    color: #ffffff
+    color: #ffffff;
 }
 
-ul {
-    list-style-type: none;
-    
-}
-
-a {
-    text-decoration: none;
-}
-
-.logo {
+img.logo {
         margin-top: 130px;
         margin-bottom: 20px;
 }
@@ -85,15 +89,30 @@ p {
     color: grey;
 }
 
-.footernavleft {
+li {
+    display: inline;
+}
+
+a.navlinks {
+    color: rgb(107, 112, 107);
+}
+
+div.footernavleft {
     position: fixed;
     margin-bottom: 20px;
     bottom: 0;
-    padding-left: 10px;
     width: 100%;
     background-color: #f8f8f8;
-    font-family: arial;
-    font-size: 28px;
-    color: grey;
+    font-family: sans-serif;
+    font-size: 15px;
 }
 
+div.footernavright {
+    text-align: right;
+    position: fixed;
+    margin-bottom: 20px;
+    bottom: 0;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 15px;
+}
