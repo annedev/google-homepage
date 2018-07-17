@@ -93,14 +93,15 @@ p {
 }
 
 li {
-    display: inline;
+    display: inline-block;
 }
 
-a.navlinks {
+.footernavleft a,
+.footernavright a {
     color: rgb(107, 112, 107);
 }
 
-div.footernavleft {
+.footernavleft {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -109,7 +110,7 @@ div.footernavleft {
     font-size: 13px;
 }
 
-div.footernavright {
+.footernavright {
     text-align: right;
     margin-right: 10px;
     position: fixed;
