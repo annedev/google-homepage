@@ -1,14 +1,19 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
 }
 
 li {
     list-style: none;
     display: inline;
 }
-.link {
-    font-size: 18px;
+
+.tab, .tab2 {
+    margin-left: 104px;
+}
+
+.content {
+    margin-left: 144px;
+    text-align: left;
 }
 
 .cite {
