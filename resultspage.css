@@ -7,12 +7,15 @@ body {
 }
 
 li {
-    color: #545454;
     padding-left: 15px;
     padding-right: 15px;
     list-style: none;
     display: inline;
     font-size: 13px;
+}
+
+li a {
+    color: #545454;
 }
 
 li:hover {
