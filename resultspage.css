@@ -2,8 +2,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.tab, .tab2 {
-    color: #545454;
+.header {
+    background-color: #fafafa;
 }
 
 li {
@@ -57,3 +57,6 @@ p {
     font-size: 13px;
 }
 
+.footer {
+    background-color: #fafafa;
+}
