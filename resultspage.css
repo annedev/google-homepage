@@ -3,9 +3,12 @@ body {
 }
 
 li {
+    padding-left: 15px;
+    padding-right: 15px;
     list-style: none;
     display: inline;
     color: #545454;
+    font-size: 13px;
 }
 
 .tab, .tab2 {
@@ -34,3 +37,4 @@ p {
     color: #545454;
     font-size: 13px;
 }
+
