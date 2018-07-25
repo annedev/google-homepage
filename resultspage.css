@@ -4,11 +4,15 @@ body {
 
 .header {
     background-color: #fafafa;
+    padding-bottom: 5px;
 }
 
+ul {
+    display: inline-block;
+}
 li {
     padding-right: 20px;
-    list-style: none;
+    list-style-type: none;
     display: inline;
     font-size: 13px;
 }
@@ -21,11 +25,16 @@ li:hover {
     color: #000;
 }
 
-.tab, .tab2 {
-    margin-left: 104px;
+.tab {
+    margin-left: 105px;
+}
+
+.tab2 {
+    margin-left: 40px;
 }
 
 #search {
+    margin-left: 20px;
     background: url(mic.jpeg) no-repeat 465px;
     background-color: #fff;
     width: 510px;
