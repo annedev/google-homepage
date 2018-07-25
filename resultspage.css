@@ -11,6 +11,10 @@ li {
     font-size: 13px;
 }
 
+li:hover {
+    color: #000;
+}
+
 .tab, .tab2 {
     margin-left: 104px;
 }
