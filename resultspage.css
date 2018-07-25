@@ -21,10 +21,10 @@ li {
 }
 
 li a {
-    color: #545454;
+    color: #777;
 }
 
-li:hover {
+li a:hover {
     color: #000;
 }
 
@@ -59,8 +59,6 @@ li:hover {
 
 .link {
     font-size: 18px;
-
-
 }
 
 .link:hover {
@@ -81,9 +79,6 @@ a {
     text-decoration: none; 
 }
 
-a:hover {
-    color: #000;
-}
 
 p {
     color: #545454;
