@@ -28,6 +28,10 @@ li:hover {
     font-size: 18px;
 }
 
+.link:hover {
+    text-decoration: underline;
+}
+
 .cite {
     color: #006621;
     font-size: 14px;
